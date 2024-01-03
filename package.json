@@ -4,7 +4,7 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
+        "test": "echo \"Warning: no test specified\"",
         "build": "tsc",
         "build-package": "wasm-pack build --target nodejs && npx tsc update-package-pkg.ts && node update-package-pkg.js",
         "publish": "npm run build && cd pkg && npm publish",
