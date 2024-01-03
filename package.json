@@ -1,0 +1,8 @@
+{
+    "name": "neo4j-cypher-props-configuration",
+    "version": "0.1.1",
+    "scripts": {
+        "build": "wasm-pack build && node update-package-pkg.js",
+        "publish": "npm run build && cd pkg && npm publish"
+    }
+}

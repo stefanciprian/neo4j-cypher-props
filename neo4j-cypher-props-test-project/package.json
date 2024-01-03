@@ -14,5 +14,8 @@
   "devDependencies": {
     "@types/node": "^20.10.6",
     "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "neo4j-cypher-props": "^0.1.1"
   }
 }
