@@ -1,5 +1,5 @@
 //import neo4jCypherProps from 'neo4j-cypher-props';
-import {greet} from 'neo4j-cypher-props/neo4j_cypher_props';
+import {greet} from 'neo4j-cypher-props';
 
 console.log(greet);
 

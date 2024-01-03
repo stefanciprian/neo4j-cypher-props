@@ -106,7 +106,8 @@
     // "skipDefaultLibCheck": true,                      /* Skip type checking .d.ts files that are included with TypeScript. */
     "skipLibCheck": true /* Skip type checking all .d.ts files. */,
     "rootDir": "./src", // source files directory
-    "outDir": "./dist" // output directory for compiled files
+    "outDir": "./dist", // output directory for compiled files
+    //"moduleResolution": "NodeNext"
   },
   "include": ["src/**/*"], // include all files in the src directory
   "exclude": ["node_modules", "dist"]
