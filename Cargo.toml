@@ -1,6 +1,6 @@
 [package]
 name = "neo4j-cypher-props"
-version = "0.1.2"
+version = "0.1.0"
 edition = "2021"
 description = "Enhance Neo4j Cypher Queries with Properties"
 repository = "https://github.com/stefanciprian/neo4j-cypher-props.git"
