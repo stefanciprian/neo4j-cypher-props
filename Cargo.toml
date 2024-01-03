@@ -2,9 +2,9 @@
 name = "neo4j-cypher-props"
 version = "0.1.1"
 edition = "2021"
-description = ""
-repository = ""
-license= ""
+description = "Enhance Neo4j Cypher Queries with Properties"
+repository = "https://github.com/stefanciprian/neo4j-cypher-props.git"
+license= "LICENSE"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 

@@ -1,3 +1,4 @@
 /target
 Cargo.lock
-/neo4j-cypher-props-test-project/node_modules
+/node_modules
+/dist

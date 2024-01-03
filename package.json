@@ -1,8 +1,24 @@
 {
     "name": "neo4j-cypher-props-configuration",
     "version": "0.1.1",
+    "description": "",
+    "main": "index.js",
     "scripts": {
-        "build": "wasm-pack build && node update-package-pkg.js",
-        "publish": "npm run build && cd pkg && npm publish"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "tsc",
+        "build-package": "wasm-pack build && npx tsc update-package-pkg.ts && node update-package-pkg.js",
+        "publish": "npm run build && cd pkg && npm publish",
+        "start": "node dist/index.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/node": "^20.10.6",
+        "typescript": "^5.3.3",
+        "wasm-pack": "^0.12.1"
+    },
+    "dependencies": {
+        "neo4j-cypher-props": "^0.1.1"
     }
 }
