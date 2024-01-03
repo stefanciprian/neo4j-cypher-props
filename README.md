@@ -10,7 +10,7 @@ npm install neo4j-cypher-props
 
 And use the Rust functions in your JavaScript code:
 
-```bash
+```javascript
 import {greet, modify_cypher_query2} from 'neo4j-cypher-props';
 
 describe("index", () => {
