@@ -19,6 +19,6 @@
         "wasm-pack": "^0.12.1"
     },
     "dependencies": {
-        "neo4j-cypher-props": "^0.1.2"
+        "neo4j-cypher-props": "^0.1.1"
     }
 }
